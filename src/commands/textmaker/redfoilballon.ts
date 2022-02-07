@@ -44,7 +44,7 @@ export default class Command extends BaseCommand {
 
         const cara = joined.trim()
 
-		const wall = await w5botapi.textpri("https://textpro.me/red-foil-balloon-text-effect-928.html",
+		const wall = await w5botapi.textpro("https://textpro.me/red-foil-balloon-text-effect-928.html",
 
     cara
 
