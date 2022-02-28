@@ -18,3 +18,19 @@ export default class Command extends BaseCommand {
         return void (await M.reply(`👾 Hello ${M.sender.username}!`))
     }
 }
+sendButImage(from, menu, "𓁩NAB🜲bot〠⃟⛐ •", thumb, [
+          {
+            buttonId: `${prefix}help`,
+            buttonText: {
+              displayText: `PING`,
+            },
+            type: 1,
+          },
+          {
+            buttonId: `${prefix}mods`,
+            buttonText: {
+              displayText: `OWNER`,
+            },
+            type: 1,
+          },
+        ]);
